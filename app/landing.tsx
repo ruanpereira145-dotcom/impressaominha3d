@@ -44,7 +44,7 @@ export default function Landing() {
             <div className="b-hero-sparks" aria-hidden="true" />
             <div className="b-hero-graffiti" aria-hidden="true"><span>Impressão</span><b>3D</b><span>sem limites</span></div>
             <div className="b-hero-content">
-              <h1><span className="b-cyan b-headline-glitch" data-text="Você imagina.">Você imagina.</span><span className="b-magenta">A {loja.nomeCurto} cria! <span aria-hidden="true">↗</span></span></h1>
+              <h1 className={loja.nomeCurto.length > 14 ? 'b-h1-longo' : undefined}><span className="b-cyan b-headline-glitch" data-text="Você imagina.">Você imagina.</span><span className="b-magenta">A {loja.nomeCurto} cria! <span aria-hidden="true">↗</span></span></h1>
               <p className="b-lead">Do <strong>3D para a sua realidade.</strong> A gente transforma a sua referência, seu presente ou aquela ideia maluca em uma criação feita só para você.</p>
               <div className="b-hero-actions">
                 <a className="b-btn b-btn-primary" href={wa} {...ext}>Fazer orçamento <span className="b-arrow">{arrow}</span></a>

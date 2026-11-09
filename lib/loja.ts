@@ -1,13 +1,13 @@
 // Dados da loja usados na página inicial. Para mudar contatos, textos ou imagens, edite só este arquivo.
 
 export const loja = {
-  nome: 'Impressão Minha 3D',
-  nomeCurto: 'Impressão Minha',
+  nome: 'Impressão Minha Curitiba',
+  nomeCurto: 'Impressão Minha Curitiba',
   // Logo em texto (usado quando "logo" estiver vazio): sigla do selo e as duas linhas do nome.
   sigla: 'IM',
-  marca: ['Impressão', 'Minha 3D'] as [string, string],
+  marca: ['Impressão', 'Minha Curitiba'] as [string, string],
   whatsapp: '5541984988821',
-  mensagem: 'Oi, vim pelo site da Impressão Minha 3D e quero fazer um orçamento.',
+  mensagem: 'Oi, vim pelo site da Impressão Minha Curitiba e quero fazer um orçamento.',
   cidade: 'Curitiba-PR',
   entrega: 'Rua Alferes Poli, 1129 - Rebouças',
   aviso: 'Sua ideia. Nossa impressão. Impressão 3D personalizada em Curitiba.',
