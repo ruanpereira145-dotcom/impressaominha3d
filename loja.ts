@@ -2,7 +2,7 @@
 
 export const loja = {
   nome: 'Impressão Minha Curitiba',
-  nomeCurto: 'Impressão Minha',
+  nomeCurto: 'Impressão Minha Curitiba',
   // Logo em texto (usado quando "logo" estiver vazio): sigla do selo e as duas linhas do nome.
   sigla: 'IM',
   marca: ['Impressão', 'Minha Curitiba'] as [string, string],
