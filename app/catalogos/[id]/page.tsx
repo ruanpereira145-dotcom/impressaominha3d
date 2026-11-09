@@ -1,0 +1,1 @@
+import Shop from '../../shop';import {publicCatalog} from '../../../lib/public-catalog';export const dynamic='force-dynamic';export default async function Page({params}:any){const {id}=await params;try{return <Shop initialData={await publicCatalog()} initialSelection={id==='todos'?'all':id}/>;}catch{return <Shop initialSelection={id==='todos'?'all':id}/>}}

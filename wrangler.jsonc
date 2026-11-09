@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "impressaominha3d",
+  "main": "worker.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "SUPABASE_URL": "https://sggiikiqgconmivdwcfe.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_36oIYv5lNLxsG29oacIJbA_1ORkeLyF"
+  }
+}
